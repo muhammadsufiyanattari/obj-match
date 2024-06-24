@@ -2,24 +2,24 @@
   padding: 0% !important;
   width: 800px !important;
 }
-section {
+.mcontainer {
   height: 100%;
 }
-.head {
+.header {
   display: flex;
   align-items: center;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   height: 90px;
   color: white;
-  background-color: rgb(26, 26, 136);
+  background-color: rgb(62, 62, 185);
 }
-.head > img {
+.header > img {
   width: 40px;
   height: 40px;
   margin: 0px 10px;
 }
-.head > h4 {
+.header > h4 {
   font-weight: 400;
 }
 .nav {
@@ -38,12 +38,13 @@ section {
   display: flex;
   justify-content: center;
   border-bottom: 3px solid rgb(206, 206, 206);
-  /* border: 2px solid red; */
 }
 .nav > ul > li:active,.nav > ul > li:hover  {
   filter: drop-shadow(0px 0px 2px rgb(48, 46, 46));
   border-bottom: 3px solid rgb(255, 255, 255);
   color: rgb(168, 168, 168);
+  font-weight: bold;
+  color: rgb(4, 4, 126) !important;
 }
 .nav > ul > li > a {
   color: white;
@@ -60,6 +61,12 @@ section {
   height: 100%;
   border-end-end-radius: 10px;
   border-end-start-radius: 10px;
+}
+#ttm{
+  width: 50px;
+}
+.header h4{
+font-weight: bold;
 }
 .box1col1 {
   border: 1px solid rgb(245, 245, 245);
